@@ -1,0 +1,50 @@
+@font-face{
+    font-family: terminal;
+    src: url("../fonts/Modeseven-L3n5.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: terminal;
+    background:black;
+    font-size:95%;
+}
+
+#background{
+    background:black;
+    color:white;
+    height:100%;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+}
+
+a{
+    border-bottom: 2px solid white;
+    color:white;
+    transition: 0.4s;
+}
+
+a:hover{
+    font-size:20px;
+    border:none;
+}
+
+p{
+    padding-top: 1%;
+}
+input[type=text]{
+    background-color: black;
+    color: white;
+    padding-top:1%;
+    font-family: terminal;
+}
